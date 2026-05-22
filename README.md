@@ -7,6 +7,7 @@ This project provides a local environment to simulate AWS Lambda functions, Dyna
 This project is designed to simulate a local AWS serverless environment, enabling the development and testing of applications that utilize Lambda, DynamoDB, and S3, with data persistence in a PostgreSQL database. 
 Trying to follow this flow:
 ![alt text](image.png)
+
 The practical flow of the application is as follows:
 
 1.  **Local Infrastructure:** We use `docker-compose` to spin up **LocalStack** (to emulate AWS services like Lambda, S3, and DynamoDB) and **PostgreSQL** (for relational data storage).
