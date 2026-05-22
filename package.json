@@ -2,6 +2,7 @@
   "name": "transactional_monitor",
   "version": "0.1.0",
   "scripts": {
+    "start": "ts-node bin/transactional_monitor.ts",
     "build": "tsc",
     "watch": "tsc -w",
     "test": "jest",
