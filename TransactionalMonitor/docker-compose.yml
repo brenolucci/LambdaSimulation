@@ -1,0 +1,8 @@
+services:
+  localstack:
+    image: localstack/localstack:latest
+    container_name: localstack
+    ports:
+      - "4566:4566"
+    environment:
+      - LOCALSTACK_ACKNOWLEDGE_ACCOUNT_REQUIREMENT=1
